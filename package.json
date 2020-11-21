@@ -1,0 +1,37 @@
+{
+  "name": "abell-source-wp",
+  "version": "1.0.0",
+  "description": "Take content from wordpress blog!",
+  "main": "plugin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "abell serve",
+    "build": "abell build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushsuthar/abell-source-wp.git"
+  },
+  "keywords": [
+    "Abell-wp",
+    "wordpress",
+    "abelljs",
+    "abell",
+    "abell-wp-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piyushsuthar/abell-source-wp/issues"
+  },
+  "homepage": "https://github.com/piyushsuthar/abell-source-wp#readme",
+  "devDependencies": {
+    "abell": "^0.8.0"
+  },
+  "peerDependencies": {
+    "abell": "^0.5.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
